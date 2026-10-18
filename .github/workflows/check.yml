@@ -48,7 +48,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '11'
-          cache: 'maven'
       - name: Check Problems in Code
         continue-on-error: true
         run: >
